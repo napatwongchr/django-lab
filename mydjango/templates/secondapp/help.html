@@ -1,0 +1,17 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static "css/main.css" %}" />
+    <title>Second App - Help page</title>
+</head>
+
+<body>
+    <img src="{% static "hamster.jpg" %}" alt="My image">
+    <h1 class="help-text">{{ help_topic }}</h1>
+</body>
+
+</html>
